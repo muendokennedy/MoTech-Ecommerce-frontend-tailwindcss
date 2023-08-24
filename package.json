@@ -1,0 +1,16 @@
+{
+  "name": "motech-ecormerce-frontend-tailwind",
+  "version": "1.0.0",
+  "description": "This is the client front end part of the MoTech ecormmerce application for tech products",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "Kennedy Muendo",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.3"
+  }
+}
