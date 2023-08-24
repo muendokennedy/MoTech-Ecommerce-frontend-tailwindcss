@@ -5,3 +5,31 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+.cart-btn{
+  background: #384857;
+  height: 2rem;
+  width: 4.5rem;
+  display: inline-block;
+  line-height: 2rem;
+  text-align: center;
+  margin-left: 1.5rem;
+  border-radius: 0.4rem;
+  padding-left: 0.25rem;
+  
+}
+.cart-btn i{
+  transform: translateX(0.7rem);
+}
+.count{
+  display: inline-block;
+  margin-left: .6rem;
+  background: #fff;
+  padding: .2rem;
+  width: 2.5rem;
+  height: 2.2rem;
+  margin-top: -0.125rem;
+  margin-right: 0;
+  transform: translateX(1rem);
+  border-radius: 0.4rem;
+  color: #000;
+}

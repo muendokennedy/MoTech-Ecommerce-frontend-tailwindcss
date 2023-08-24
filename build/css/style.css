@@ -534,38 +534,130 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text-center {
-  text-align: center;
+.flex {
+  display: flex;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-\[\#68A4FE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(104 164 254 / var(--tw-bg-opacity));
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-\[4\%\] {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-extrabold {
   font-weight: 800;
 }
 
-.text-teal-800 {
-  --tw-text-opacity: 1;
-  color: rgb(17 94 89 / var(--tw-text-opacity));
+.capitalize {
+  text-transform: capitalize;
 }
 
-.text-black {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+.shadow-\[0_6px_12px_rgba\(56\2c 72\2c 87\2c 0\.5\)\] {
+  --tw-shadow: 0 6px 12px rgba(56,72,87,0.5);
+  --tw-shadow-colored: 0 6px 12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-1 {
+  outline-width: 1px;
+}
+
+.outline-black {
+  outline-color: #000;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 *{
   font-family: 'Poppins', sans-serif;
+}
+
+.cart-btn{
+  background: #384857;
+  height: 2rem;
+  width: 4.5rem;
+  display: inline-block;
+  line-height: 2rem;
+  text-align: center;
+  margin-left: 1.5rem;
+  border-radius: 0.4rem;
+  padding-left: 0.25rem;
+}
+
+.cart-btn i{
+  transform: translateX(0.7rem);
+}
+
+.count{
+  display: inline-block;
+  margin-left: .6rem;
+  background: #fff;
+  padding: .2rem;
+  width: 2.5rem;
+  height: 2.2rem;
+  margin-top: -0.125rem;
+  margin-right: 0;
+  transform: translateX(1rem);
+  border-radius: 0.4rem;
+  color: #000;
+}
+
+.hover\:bg-\[\#5291F1\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 145 241 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-w-\[1500px\] {
+    max-width: 1500px;
+  }
 }
