@@ -39,14 +39,39 @@
 }
 .shop-btn{
   background: #68A4FE;
-  padding: 1.3rem 2.8rem;
+  padding: 1rem 2.8rem;
   border-radius: 0.25rem;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  text-transform: capitalize;
 }
 .shop-btn:hover{
   background: #3b81eb;
 }
 .home-2{
   background-image: radial-gradient(#ffff 5%, #536474 50%);
+}
+.add-cart-btn{
+  background: #FFCF10;
+  padding: 0.6rem 2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.top-sales-container{
+  grid-template-columns: repeat(auto-fit, minmax(12.75rem, 1fr));
+}
+.product-image{
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.product-image img{
+  height: 100%;
+  width: 100%;
+  transform: scale(0.8);
+}
+.filter-tags a{
+  transition: all .3s ease-in-out;
 }
