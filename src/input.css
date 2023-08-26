@@ -47,3 +47,6 @@
 .shop-btn:hover{
   background: #3b81eb;
 }
+.home-2{
+  background-image: radial-gradient(#ffff 5%, #536474 50%);
+}
