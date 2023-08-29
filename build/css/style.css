@@ -664,6 +664,18 @@ video {
   width: 100%;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .basis-1\/2 {
   flex-basis: 50%;
 }
@@ -757,6 +769,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-\[0\.375rem\] {
@@ -1032,6 +1050,10 @@ video {
   outline-offset: 2px;
 }
 
+.outline {
+  outline-style: solid;
+}
+
 .outline-1 {
   outline-width: 1px;
 }
@@ -1175,6 +1197,10 @@ video {
 
 .payment-methods-container{
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.hover\:border:hover {
+  border-width: 1px;
 }
 
 .hover\:bg-\[\#3b81eb\]:hover {
