@@ -11,7 +11,7 @@
 }
 .cart-btn{
   background: #384857;
-  height: 2rem;
+  height: 100%;
   width: 4.5rem;
   display: inline-block;
   line-height: 2rem;
@@ -19,7 +19,16 @@
   margin-left: 1.5rem;
   border-radius: 0.4rem;
   padding-left: 0.25rem;
-  
+  transition: all 0.3s ease-in-out;
+}
+.cart-btn i{
+  transition: all 0.3s ease-in-out;
+}
+.cart-link:hover .cart-btn{
+  background: #FFCF10;
+}
+.cart-link:hover .cart-btn i{
+  color: #384857;
 }
 .cart-btn i{
   transform: translateX(0.7rem);
