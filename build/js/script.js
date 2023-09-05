@@ -54,6 +54,6 @@ function prev(){
   homeSlides[slideIndex].classList.add('active');
 }
 
+
 // call the next function after 6 seconds
 setInterval(next, 4000);
-console.log('The code up to here')
