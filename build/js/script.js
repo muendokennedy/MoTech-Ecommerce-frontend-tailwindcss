@@ -30,7 +30,8 @@ menubarBtn.onclick = () => {
 
 // Optionally toggling the mobile menu by clicking outside the naviagation bar
 mobileMenuToggler.onclick = () => {
-  toggleMobileMenu();
+  mobileMenu.classList.remove('active');
+  menubarBtn.classList.remove('fa-xmark');
 }
 
 // Working of the home slider container
