@@ -958,9 +958,9 @@ video {
   border-color: rgb(141 175 207 / var(--tw-border-opacity));
 }
 
-.bg-\[\#2dc3e9\] {
+.bg-\[\#28a9c9\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(45 195 233 / var(--tw-bg-opacity));
+  background-color: rgb(40 169 201 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#384857\] {
@@ -1342,6 +1342,28 @@ video {
   display: flex;
 }
 
+.home .slide-content{
+  animation: home-slide .3s linear .4s backwards;
+}
+
+.home .slide-image .hero-image img{
+  animation: image-slide .4s linear;
+}
+
+@keyframes home-slide {
+  0%{
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+}
+
+@keyframes image-slide {
+  0%{
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
 .cart-btn{
   background: #384857;
   height: 100%;
@@ -1390,7 +1412,7 @@ video {
 }
 
 .home-2{
-  background-image: radial-gradient(#ffff 5%, #2dc3e9 50%);
+  background-image: radial-gradient(#ffff 5%, #28a9c9 50%);
 }
 
 .home-3{
@@ -1398,7 +1420,15 @@ video {
 }
 
 @media only screen and (max-width: 768px) {
+  .home-1{
+    background-image: none;
+  }
+
   .home-2{
+    background-image: none;
+  }
+
+  .home-3{
     background-image: none;
   }
 }

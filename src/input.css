@@ -15,6 +15,24 @@
 .home.active{
   display: flex;
 }
+.home .slide-content{
+  animation: home-slide .3s linear .4s backwards;
+}
+.home .slide-image .hero-image img{
+  animation: image-slide .4s linear;
+}
+@keyframes home-slide {
+  0%{
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+}
+@keyframes image-slide {
+  0%{
+    opacity: 0;
+    transform: scale(0);
+  }
+}
 .cart-btn{
   background: #384857;
   height: 100%;
@@ -56,13 +74,23 @@
   background-image: radial-gradient(#ffff 5%, #536474 50%);
 }
 .home-2{
-  background-image: radial-gradient(#ffff 5%, #2dc3e9 50%);
+  background-image: radial-gradient(#ffff 5%, #28a9c9 50%);
 }
 .home-3{
   background-image: radial-gradient(#ffff 5%, #b237be 50%);
 }
 @media only screen and (max-width: 768px) {
+  .home-1{
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 768px) {
   .home-2{
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home-3{
     background-image: none;
   }
 }
