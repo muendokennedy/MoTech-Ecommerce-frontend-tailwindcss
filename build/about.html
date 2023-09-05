@@ -18,44 +18,77 @@
   </head>
   <body>
     <header
-      class="fixed z-10 top-0 right-0 left-0 bg-[#68A4FE] shadow-[0_6px_12px_rgba(56,72,87,0.5)]"
+    class="fixed z-10 top-0 right-0 left-0 bg-[#68A4FE] shadow-[0_6px_12px_rgba(56,72,87,0.5)]"
+  >
+    <section
+      class="flex justify-between items-center px-[4%] mx-auto lg:max-w-[1500px] outline-1 outline-black"
     >
-      <section
-        class="flex justify-between items-center px-[4%] mx-auto lg:max-w-[1500px] outline-1 outline-black"
+      <div class="text-2xl font-semibold sm:font-extrabold text-white">MoTech</div>
+      <div>
+        <button id="humbuger-btn" class="humbuger-btn text-white font-bold cursor-pointer text-3xl p-4 fa-solid fa-bars"></button>
+      </div>
+      <div class="mobile-menu-navigation-bar bg-[#68A4FE] absolute top-[3.9rem] right-0  z-50 h-screen">
+        <a
+        href="index.html"
+        class="block py-4 px-6  text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+        >Home</a
       >
-        <div class="text-2xl font-extrabold text-white">MoTech</div>
-        <nav class="flex items-center justify-between">
-          <a
-            href="index.html"
-            class="py-4 px-3 text-white capitalize hover:bg-[#5291F1] transition-all duration-300 ease-in-out"
-            >Home</a
-          >
-          <a
-            href="about.html"
-            class="py-4 px-3 text-white capitalize hover:bg-[#5291F1] transition-all duration-300 ease-in-out"
-            >About</a
-          >
-          <a
-            href="products.html"
-            class="py-4 px-3 text-white capitalize hover:bg-[#5291F1] transition-all duration-300 ease-in-out"
-            >Products</a
-          >
-          <a
-            href="contact.html"
-            class="py-4 px-3 text-white capitalize hover:bg-[#5291F1] transition-all duration-300 ease-in-out"
-            >contact</a
-          >
-          <a
-            href="cart.html"
-            class="flex items-center px-3 text-white capitalize ease-in-out"
-            >cart<span class="cart-btn"
-              ><i class="fa-solid fa-cart-shopping"></i
-              ><span class="count">0</span></span
-            ></a
-          >
-        </nav>
-      </section>
-    </header>
+      <a
+        href="about.html"
+        class="block py-4 px-6  text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+        >About</a
+      >
+      <a
+        href="products.html"
+        class="block py-4 px-6  text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+        >Products</a
+      >
+      <a
+        href="contact.html"
+        class="block py-4 px-6  text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+        >contact</a
+      >
+      <a
+        href="cart.html"
+        class="cart-link  flex items-center text-white capitalize ease-in-ou gap-8 px-6 mt-4"
+        >cart<span class="cart-btn"
+          ><i class="fa-solid fa-cart-shopping"></i
+          ><span class="count">0</span></span
+        ></a
+      >
+      </div>
+      <nav class="primary-navigation-bar flex items-center justify-between">
+        <a
+          href="index.html"
+          class="py-4 px-3 text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+          >Home</a
+        >
+        <a
+          href="about.html"
+          class="py-4 px-3 text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+          >About</a
+        >
+        <a
+          href="products.html"
+          class="py-4 px-3 text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+          >Products</a
+        >
+        <a
+          href="contact.html"
+          class="py-4 px-3 text-white capitalize hover:bg-[#384857] transition-all duration-300 ease-in-out"
+          >contact</a
+        >
+        <a
+          href="cart.html"
+          class="cart-link flex items-center px-3 text-white capitalize ease-in-ou"
+          >cart<span class="cart-btn"
+            ><i class="fa-solid fa-cart-shopping"></i
+            ><span class="count">0</span></span
+          ></a
+        >
+      </nav>
+    </section>
+  </header>
     <main>
       <section class="about-home pt-16 px-[4%] mx-auto">
         <div
