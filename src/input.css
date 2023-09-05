@@ -9,6 +9,12 @@
   scroll-behavior: smooth;
   scroll-padding-top: 6.25rem;
 }
+.home{
+  display: none;
+}
+.home.active{
+  display: flex;
+}
 .cart-btn{
   background: #384857;
   height: 100%;
@@ -46,8 +52,14 @@
   border-radius: 0.4rem;
   color: #000;
 }
-.home-2{
+.home-1{
   background-image: radial-gradient(#ffff 5%, #536474 50%);
+}
+.home-2{
+  background-image: radial-gradient(#ffff 5%, #2dc3e9 50%);
+}
+.home-3{
+  background-image: radial-gradient(#ffff 5%, #b237be 50%);
 }
 @media only screen and (max-width: 768px) {
   .home-2{
