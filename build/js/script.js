@@ -17,6 +17,9 @@ const mobileMenu = document.querySelector('.mobile-menu-navigation-bar');
 
 const mobileMenuToggler = document.querySelector('.menu-toggle');
 
+const mobileFooterToggler = document.querySelector('footer');
+
+
 
 
 function toggleMobileMenu(){
@@ -30,6 +33,10 @@ menubarBtn.onclick = () => {
 
 // Optionally toggling the mobile menu by clicking outside the naviagation bar
 mobileMenuToggler.onclick = () => {
+  mobileMenu.classList.remove('active');
+  menubarBtn.classList.remove('fa-xmark');
+}
+mobileFooterToggler.onclick = () => {
   mobileMenu.classList.remove('active');
   menubarBtn.classList.remove('fa-xmark');
 }
