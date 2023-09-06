@@ -238,3 +238,16 @@
     width: 16rem;
   }
 }
+
+/* media query for the address section of the contact page */
+@media only screen and (max-width: 690px){
+  .address-container .address-head{
+    font-size: 1rem;
+  }
+  .address-container .address-icon i{
+    font-size: 1.8rem;
+  }
+  .address-container .address-content{
+    font-size: 0.8rem;
+  }
+}
