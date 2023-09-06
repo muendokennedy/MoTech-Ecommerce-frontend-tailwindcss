@@ -155,9 +155,6 @@
     opacity: 0;
   }
 }
-.client-reviews-container{
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-}
 .payment-methods-container{
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
@@ -192,6 +189,12 @@
 #next{
   right: 1.25rem;
 }
+/* .swiper-pagination-bullet {
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: #7d2ae8;
+} */
 @media only screen and (max-width: 768px){
   #prev, #next{
     top: 30%;
