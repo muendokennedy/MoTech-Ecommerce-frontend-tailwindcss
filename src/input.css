@@ -258,3 +258,11 @@
     height: 14.5rem;
   }
 }
+@media only screen and (max-width: 350px){
+  .input-responsive{
+    width: 100%;
+  }
+  .input-responsive button{
+    width: 100%;
+  }
+}
