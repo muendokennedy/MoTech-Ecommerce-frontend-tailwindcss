@@ -251,3 +251,10 @@
     font-size: 0.8rem;
   }
 }
+
+/* Custom media query for the cart subtotal section */
+@media only screen and (max-width: 376px){
+  .cart-total{
+    height: 14.5rem;
+  }
+}
