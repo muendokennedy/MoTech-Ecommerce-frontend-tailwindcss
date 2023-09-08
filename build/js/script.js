@@ -26,6 +26,11 @@ function toggleMobileMenu(){
   mobileMenu.classList.toggle('active');
   menubarBtn.classList.toggle('fa-xmark');
 }
+
+function outsideMobileMenuToggler(){
+  mobileMenu.classList.remove('active');
+  menubarBtn.classList.remove('fa-xmark');
+}
 // Toggling the mobile menu navigation bar by click the icon bar icon at the top
 menubarBtn.onclick = () => {
   toggleMobileMenu();
@@ -33,12 +38,10 @@ menubarBtn.onclick = () => {
 
 // Optionally toggling the mobile menu by clicking outside the naviagation bar
 mobileMenuToggler.onclick = () => {
-  mobileMenu.classList.remove('active');
-  menubarBtn.classList.remove('fa-xmark');
+  outsideMobileMenuToggler();
 }
 mobileFooterToggler.onclick = () => {
-  mobileMenu.classList.remove('active');
-  menubarBtn.classList.remove('fa-xmark');
+  outsideMobileMenuToggler();
 }
 
 
